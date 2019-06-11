@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<input type="button" onclick="confirmation()" value="click me"></input>
+<script>
+function confirmation()
+{
+/*
+button appears as usual 
+on click points to function confirmation 
+if u press ok then ans will get the value 1 and alert message will be displayed 
+and window.location will point to a new website as mentioned earlier
+try it for bettr undestanding :)
+*/
+	var ans=confirm("Click ok to see website")
+	if(ans)
+	{
+		alert("Welcome")
+		window.location="https://www.youtube.com/watch?v=vF51aqeyL6w&has_verified=1"
+
+	}
+	else{
+		alert("Sorry")
+	}
+}
+</script>
+</body>
+</html>
