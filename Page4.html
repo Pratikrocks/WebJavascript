@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<script>
+function sum( a, b){
+	var c =a+b;
+	document.write(c);
+	return;
+}
+sum(20,30);
+//strings
+var str="JavaScript";
+var c =str.length;
+document.write("<br>");
+document.write(c);
+document.write("<br>");
+//charat gives character in string at an index
+var x=str.charAt(4);
+document.write(x);
+
+document.write("<br>");
+//str.indexOf('a') will givw the first index of 'a' in str which is 1
+var y=str.indexOf('a');
+document.write(y);
+document.write("<br>");
+//Locally compare
+var str1="ava";
+var z=str.localeCompare(str1);
+//it will give the output of 1 to z as 'ava' occours in 'JavaScript' ,if it was not found it wold give -1
+
+document.write("localeCompare first :"+ z);
+document.write("<br>");
+</script>
+</body>
+</html>s
